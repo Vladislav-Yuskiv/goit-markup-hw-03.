@@ -268,7 +268,7 @@ p {
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   color: var(--primary-white-color);
