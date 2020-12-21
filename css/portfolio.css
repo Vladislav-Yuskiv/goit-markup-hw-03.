@@ -1,0 +1,118 @@
+:root {
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+  --header-color: #212121;
+  --link-color: #212121;
+  --buttom-background: #f5f4fa;
+  --buttom-text: #000000;
+}
+body {
+  background: #e5e5e5;
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+/* logo */
+.accent {
+  color: var(--accent-color);
+}
+.logo {
+  color: var(--logo-color);
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+/* Site nav */
+.site-nav .link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/* auth-nav */
+.auth-nav .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link,
+.auth-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* Main */
+.list-buttom {
+  color: var(--buttom-text);
+  background: var(--buttom-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.list-buttom:hover,
+.list-buttom:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.list-title {
+  color: var(--header-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.list-kind {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--primary-white-color);
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.address {
+  color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.contacts-link {
+  color: var(--secondary-white-color);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
