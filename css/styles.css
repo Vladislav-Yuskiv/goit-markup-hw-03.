@@ -281,6 +281,7 @@ p {
 }
 .address {
   padding-top: 20px;
+  padding-bottom: 9px;
 
   color: var(--primary-white-color);
   font-weight: 400;
@@ -288,6 +289,9 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: inherit;
+}
+.link-mail {
+  margin-bottom: 9px;
 }
 .contacts-link {
   color: var(--secondary-white-color);
