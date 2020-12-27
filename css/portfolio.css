@@ -147,6 +147,12 @@ img {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  cursor: pointer;
+}
+.example-list .item:hover,
+.example-list .item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .example-list .item:nth-child(3n) {
   margin-right: 0;
@@ -158,6 +164,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   padding: 6px 22px;
+  border: none;
 
   color: var(--buttom-text);
   background: var(--buttom-background);
